@@ -1,9 +1,15 @@
-from getpass import getpass as input
 
+  
+def name_player():
+  """
+  Here where the player choose a name for it
+  """
+  name = input('Choose Name:\n')
+  return name
 
 def select_move():
     while True:
-        player = input("select your move: \n")
+        player = input(f'select your move {name} \n>>>>  "R" or "P" or "S": \n')
        
 
 """
@@ -118,4 +124,10 @@ print ("in this Game, we use R for Rock, P for Paper and S for scissors\n")
 
 print ("epic battle\n")
 
-select_move()
+
+name = name_player()
+move =select_move()
+
+
+
+  
