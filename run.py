@@ -9,7 +9,11 @@ def name_player():
 
 def select_move():
     while True:
-        player = input(f'select your move {name} \n>>>>  "R" or "P" or "S": \n')
+        player = input(f'select your move {name} \n>>>>  "R" or "P" or "S": \n').capitalize()
+        try:
+          if player != r or p or s
+       
+         
        
 
 """
