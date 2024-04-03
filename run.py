@@ -1,3 +1,121 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+from getpass import getpass as input
+
+
+def select_move():
+    while True:
+        player = input("select your move: \n")
+       
+
+"""
+  if p1r == "R":
+    if p2r == "R":
+      print ("tied")
+    elif p2r == "S":
+      print ("winner")
+    elif p2r == "P":
+      print ("lost")
+    else:
+      print ("somthing went wrong")
+  elif p1r == "P":
+    if p2r == "P":
+      print ("tied")
+    elif p2r == "S":
+      print ("lost")
+    elif p2r == "R":
+      print ("winner")
+    else:
+      print ("somthing went wrong")
+  elif p1r == "S":
+    if p2r == "S":
+      print ("tied")
+    elif p2r == "P":
+      print ("winer")
+    elif p2r == "R":
+        print ("lost")
+    else:
+       print ("somthing went wrong")
+  break
+while True:
+  print ("select your move")
+  print()
+  p1r = input ("p1 > ")
+  print ()
+  p2r = input ("pc > ")
+  print ()
+  if p1r == "R":
+    if p2r == "R":
+      print ("tied")
+    elif p2r == "S":
+      print ("winner")
+    elif p2r == "P":
+      print ("lost")
+    else:
+      print ("somthing went wrong")
+  elif p1r == "P":
+    if p2r == "P":
+      print ("tied")
+    elif p2r == "S":
+      print ("lost")
+    elif p2r == "R":
+      print ("winner")
+    else:
+      print ("somthing went wrong")
+  elif p1r == "S":
+    if p2r == "S":
+      print ("tied")
+    elif p2r == "P":
+      print ("winer")
+    elif p2r == "R":
+        print ("lost")
+    else:
+       print ("somthing went wrong")
+  break
+while True:
+  print ("select your move")
+  print()
+  p1r = input ("p1 > ")
+  print ()
+  p2r = input ("pc > ")
+  print ()
+  if p1r == "R":
+    if p2r == "R":
+      print ("tied")
+    elif p2r == "S":
+      print ("winner")
+    elif p2r == "P":
+      print ("lost")
+    else:
+      print ("somthing went wrong")
+  elif p1r == "P":
+    if p2r == "P":
+      print ("tied")
+    elif p2r == "S":
+      print ("lost")
+    elif p2r == "R":
+      print ("winner")
+    else:
+      print ("somthing went wrong")
+  elif p1r == "S":
+    if p2r == "S":
+      print ("tied")
+    elif p2r == "P":
+      print ("winer")
+    elif p2r == "R":
+        print ("lost")
+    else:
+       print ("somthing went wrong")
+  break
+if p1r == "winner + winner":
+  print ("won")
+elif p1r == "winner + teid":
+  print ("tied")
+else:
+  print ("game over")
+  exit ()
+"""
+
+print ("in this Game, we use R for Rock, P for Paper and S for scissors\n")
+
+print ("epic battle\n")
+
+select_move()
