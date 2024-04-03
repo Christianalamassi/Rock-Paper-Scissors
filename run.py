@@ -9,10 +9,58 @@ def name_player():
 
 def select_move():
     while True:
-        player = input(f'select your move {name} \n>>>>  "R" or "P" or "S": \n').capitalize()
-        try:
-          if player != r or p or s
-       
+
+        player = input(f'select your move {name} \n>>>>  "R" or "P" or "S": \n')
+
+        return player
+        
+def vaild_move(validation):
+
+  """
+  I raised unvaild error here if the user throw anything not P or R or S
+  """
+  try:
+    if  validation != str("P"):
+      raise ValueError(
+        f'you should enter either "R" or "P" or "S" in capital letter.\n'
+         )
+
+  except ValueError as e:
+    print(f"incorrect move:{e}, please try agian.\n")
+    return False
+  return True
+
+  try:
+    if  validation != str("R"):
+      raise ValueError(
+        f'you should enter either "R" or "P" or "S" in capital letter.\n'
+         )
+  except ValueError as e:
+    print(f"incorrect move:{e}, please try agian.\n")
+    return False
+  return True
+
+  try:
+    if  validation != str("S"):
+      raise ValueError(
+        f'you should enter either "R" or "P" or "S" in  capital letter.\n'
+         )
+  except ValueError as e:
+    print(f"incorrect move:{e}, please try agian.\n")
+    return False
+  return True
+
+
+print ("in this Game, we use R for Rock, P for Paper and S for scissors\n")
+
+print ("The battle started\n")
+
+name = name_player()
+move =select_move()
+validations = vaild_move(move)
+      
+    
+    
          
        
 
@@ -124,13 +172,9 @@ else:
   exit ()
 """
 
-print ("in this Game, we use R for Rock, P for Paper and S for scissors\n")
-
-print ("epic battle\n")
 
 
-name = name_player()
-move =select_move()
+
 
 
 
