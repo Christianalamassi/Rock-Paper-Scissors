@@ -1,45 +1,23 @@
 import random
-  
-def name_player():
-  """
-  Here where the player choose a name for it
-  """
-  name = input('Choose Name:\n')
-  return name
 
+def select_move():
+  """#the user should add the input here,
+  which it sould be R or P or S in capital letter,
+  then the computer will choose randomlly from the list"""
 
-
-def select_move_player():
-  """
-  the user should add the input here, which it sould be R or P or S in capital letter
-  """
-  player = input(f'select your move {name} \n>>>>  "R" or "P" or "S": \n')
-  return player
-
-
-def select_move_computer():
-  """
-  the computer will choose randomlly from the list
-  """
   list=["R","P","S"]
 
-  sel = random.choice(list) 
-  print(sel)
-  return sel
-        
+  player = input(f'select your move {name} \n>>>>  "R" or "P" or "S": \n')
 
-def vaild_move(validation):
+  computer = random.choice(list)
+  print(computer)
 
-  """
-  I raised unvaild error here if the user throw anything not P or R or S
-  """
-  
+  return  results(player,computer)
 
 
 
 def results(move_player, move_computer):
   """ there is three odds for each throw"""
-  
   if move_player == "R":
     if move_computer == "R":
       print ("tied")
@@ -47,6 +25,8 @@ def results(move_player, move_computer):
       print ("winner")
     elif move_computer == "R":
       print ("lost")
+    else:
+      print ("somthing went wrong")
 
   elif move_player == "P":
     if move_computer == "P":
@@ -55,6 +35,8 @@ def results(move_player, move_computer):
       print ("winner")
     elif move_computer == "S":
       print ("lost")
+    else:
+      print ("somthing went wrong")
 
   elif move_player == "S":
     if move_computer == "S":
@@ -63,51 +45,18 @@ def results(move_player, move_computer):
       print ("winner")
     elif move_computer == "R":
       print ("lost")
+    else:
+      print ("somthing went wrong")
   else:
-    print ("somthing went wrong")
-
-"""def game_over():
-  if move_player== "winner + winner":
-    print ("won")
-  elif move_player == "winner + teid":
-    print ("tied")
-  else:
-    print ("game over, sorry you lost")
-    exit ()"""
-
-
-
-  
+    print('incorrect, sorry choose ("R" or "P" or "S")')
 
 
 print ("in this Game, we use R for Rock, P for Paper and S for scissors\n")
 
 print ("The battle started\n")
 
+# here where the user enter name
+name = input('Choose Name:\n')
 
-
-
-print ("in this Game, we use R for Rock, P for Paper and S for scissors\n")
-
-print ("The battle started\n")
-
-name = name_player()
-
-def main():
-  player = select_move_player()
-  computer = select_move_computer()
-  result = results(player, computer)
-  #game_overs = game_over(result)
-
-
-main()
-
-
-
-
-
-
-
-
-
+select_move()
   
