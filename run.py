@@ -54,10 +54,10 @@ def select_move():
       elif move_computer == "R":
         print ("lost")
         lose += 1
-   
 
     print(f'you got {win} and computer got {lose}')
 
+    """the result of the game"""
     if win >= 5:
       print(f'congratulation {name}, you won the game')
       break
