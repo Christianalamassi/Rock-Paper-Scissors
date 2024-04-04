@@ -18,7 +18,7 @@ def select_move():
       if(move_player =="R" or move_player =="S" or move_player == "P"):
         break
       else:
-        print(f'{name}, you enterd incorrect input/n')
+        print(f'{name}, you enterd incorrect input')
         print(f'please {name} choose one of "R" or "P" or "S"')
     
     move_computer = random.choice(list)
