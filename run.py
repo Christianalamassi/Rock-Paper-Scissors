@@ -12,8 +12,14 @@ def select_move():
   while True:
     list=["R","P","S"]
     
-    move_player  = input(f'select your move {name} \n>>>>  "R" or "P" or "S": \n')
-    move_player  = move_player .upper()
+    while True:
+      move_player  = input(f'select your move {name} \n>>>>  "R" or "P" or "S": \n')
+      move_player  = move_player .upper()
+      if(move_player =="R" or move_player =="S" or move_player == "P"):
+        break
+      else:
+        print(f'{name}, you enterd incorrect input/n')
+        print(f'please {name} choose one of "R" or "P" or "S"')
     
     move_computer = random.choice(list)
     print(move_computer)
@@ -48,10 +54,7 @@ def select_move():
       elif move_computer == "R":
         print ("lost")
         lose += 1
-        
-    else:
-      print(f'{name}, you enterd incorrect input/n')
-      print(f'please {name} choose one of "R" or "P" or "S"')
+   
 
     print(f'you got {win} and computer got {lose}')
 
