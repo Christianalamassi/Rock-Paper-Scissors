@@ -1,5 +1,4 @@
 import random
-import math
 
 def select_move():
   """
@@ -65,7 +64,7 @@ def select_move():
     else:
       continue
 
-print ("in this Game, we use 'R' for Rock, 'P' for Paper and 'S' for scissors\n")
+print ("in this Game, We use 'R' for Rock, 'P' for Paper and 'S' for scissors\n")
 
 print ("The battle started\n")
 
