@@ -19,13 +19,14 @@ def select_move():
     move_computer = random.choice(list)
     print(move_computer)
 
+    """ there is three odds for each throw"""
     if move_player == "R":
       if move_computer == "R":
         print ("tied")
       elif move_computer == "S":
         print ("winner")
         win += 1
-      elif move_computer == "R":
+      elif move_computer == "P":
         print ("lost")
         lose += 1
 
@@ -55,30 +56,21 @@ def select_move():
       print(f'please {name} choose one of "R" or "P" or "S"')
 
     print(f'you got {win} and computer got {lose}')
-
-#def results(move_player, move_computer):
-  """ there is three odds for each throw"""
-
-
-
-
   
 
-
-"""
 def game_over():
- to break the game when you reach num 5
+  """to break the game when you reach num 5"""
   
   if player >= 5:
-  break
+
     print(f'congratulation {name}, you won the game')
   elif player == computer:
-  break
+
     print(f'{name} you have tied the game')
+
   else:
-  break
     print(f"Sorry {name}, you lost>>>no worries {name} try agian")
-"""
+
 
 
 print ("in this Game, we use 'R' for Rock, 'P' for Paper and 'S' for scissors\n")
@@ -89,4 +81,3 @@ print ("The battle started\n")
 name = input('Choose Name:\n')
 
 select_move()
-  
