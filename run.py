@@ -43,7 +43,6 @@ def select_move():
     elif move_player == "S":
       if move_computer == "S":
         print ("tied")
-
       elif move_computer == "P":
         print ("winner")
         win += 1
@@ -56,22 +55,15 @@ def select_move():
       print(f'please {name} choose one of "R" or "P" or "S"')
 
     print(f'you got {win} and computer got {lose}')
-  
 
-def game_over():
-  """to break the game when you reach num 5"""
-  
-  if player >= 5:
-
-    print(f'congratulation {name}, you won the game')
-  elif player == computer:
-
-    print(f'{name} you have tied the game')
-
-  else:
-    print(f"Sorry {name}, you lost>>>no worries {name} try agian")
-
-
+    if win >= 5:
+      print(f'congratulation {name}, you won the game')
+      break
+    elif lose >= 5:
+      print(f"Sorry {name}, you lost >>> no worries {name} try agian")
+      break
+    else:
+      continue
 
 print ("in this Game, we use 'R' for Rock, 'P' for Paper and 'S' for scissors\n")
 
