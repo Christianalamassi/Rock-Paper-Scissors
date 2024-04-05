@@ -12,7 +12,7 @@ def select_move():
     while True:
         list = ["R", "P", "S"]
         while True:
-            move_player = input(f'select a move {name}\n"R" or "P" or "S">>:\n')
+            move_player = input(f'select a move {name}\n"R" or "P" or "S":\n')
             move_player = move_player .upper()
             if(move_player == "R" or move_player == "S" or move_player == "P"):
                 break
@@ -21,7 +21,6 @@ def select_move():
                 print(f'please {name} choose one of "R" or "P" or "S"')
         move_computer = random.choice(list)
         print(move_computer)
-
         """ there is three odds for each throw"""
         if move_player == "R":
             if move_computer == "R":
@@ -50,10 +49,8 @@ def select_move():
             elif move_computer == "R":
                 print("lost")
                 lose += 1
-    
         print(f'you got {win} and computer got {lose}')
         print("--------------------------")
-    
         """the result of the game"""
         if win >= 5:
             print(f'congratulation {name}, you won the game')
@@ -64,10 +61,10 @@ def select_move():
         else:
             continue
 
-    
+
 print("in this Game We use 'R' for Rock, 'P' for Paper and 'S' for scissors\n")
-print("The battle started\n")
 # here where the user enter name
 name = input('Choose Name:\n')
+print("The battle started\n")
 
 select_move()
