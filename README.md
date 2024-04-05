@@ -4,7 +4,7 @@ Rock, Paper, Scissor is a python terminal game,and it runs by render.
 The plyer trys in this game to make five points against the device to win the game.
 
 link to the [Rock, Paper, Scisser](https://mypython.onrender.com/)
-<img src="images/capture1.jpg">
+<img src="images/capture11.jpg">
 
 ## About
 In the game, the user plays against the computer, and the user needs to collect five points to win the game, rather than the user will lose. in each round whoever throws a strong hand will collect one point, then move to the next round, although when the result is tied none of them will collect a point.
@@ -15,9 +15,12 @@ At the start of the game, there is a message will appear to the user to describe
 This game uses symbols ("R" means Rock, "P" means Paper, and "S" means Scissors),
 when the user enters one of these symbols, the computer will do the same thing, and whoever gets a strong hand will collect one point and then the game will take them to the next round and so on.
 The user has to collect five points against the computer to win the game.
+
 ## Features 
-- A message informs the users about what kind of input they can enter
-- Allows the user to enter its name
+- Message to welcome the users.
+- Message to describes how to finish the game.
+- A message informs the users about what kind of input they can enter.
+- Allows the user to enter its name.
 <img src="images/feature1.jpg">
 
 - Play against the computer
