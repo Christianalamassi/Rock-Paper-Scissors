@@ -2,6 +2,8 @@
 Rock, Paper, Scissor is a python terminal game,and it runs by render.
 
 The plyer trys in this game to make five points against the device to win the game.
+
+link to the [Rock, Paper, Scisser](https://mypython.onrender.com/)
 <img src="images/capture1.jpg">
 
 ## About
@@ -37,6 +39,7 @@ The user has to collect five points against the computer to win the game.
 In the project I created [render app](https://render.com/)
 
 step to deploymen:
+-
 
 
 ## Testing
