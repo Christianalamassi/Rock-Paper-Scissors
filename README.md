@@ -16,23 +16,55 @@ The user has to collect five points against the computer to win the game.
 ## Features 
 - A message informs the users about what kind of input they can enter
 - Allows the user to enter its name
+<img src="images/feature1.jpg">
 
 - Play against the computer
 - Accept the user's input 
 - A message informs the user about incorrect input
 - The user can't enter any input except what is provided
 - score panel
+<img src="images/feature2.jpg">
 
 - The game uses the user's name in messages
 - A message appears the result at the end of the game
+<img src="images/feature3.jpg">
 
-## Data Model
 ## Technologies Used
 ### Languages Used
-### Libraries 
+[Python 3.8.5 ](https://www.python.org/downloads/release/python-385/)
+
 ## Deployment
+In the project I created [render app](https://render.com/)
+
+step to deploymen:
+
+
 ## Testing
+I have tested the project by the following points
+- Passed the code to [PEP8](https://pep8ci.herokuapp.com/#).
+<img src="images/capture2.jpg">
+
+- Tested the code in my render [terminal](https://mypython.onrender.com/).
+<img src="images/feature1.jpg">
+
+### bugs
+#### solved bugs
+I hade problem with "indentation"
+     while True:
+       list = ["R", "P", "S"]
+        while True: 
+#### unsolved bugs
+I can't add a whitespace after the keyword because the line will be too long
+<img src="images/c.jpg">
+
 ## Credits
-### content
-### Acknowledgments
+- Learning from [W3school](https://www.w3schools.com/js/default.asp)
+- Learning and iinspiration [FreeCodeCamp](https://www.freecodecamp.org/)
+- To show the program image on different devices [Am I Responsive](https://ui.dev/amiresponsive)
+- To deploy the project [Render](https://render.com/) 
+- It hosts the code of the project [GitHub](https://github.com/)
+- Testing the code [PEP8](https://pep8ci.herokuapp.com/#)
+- deployment terminal by [onrender](https://mypython.onrender.com/)
+
+
 
