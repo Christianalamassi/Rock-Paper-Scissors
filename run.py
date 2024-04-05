@@ -3,9 +3,9 @@ import random
 
 def select_move():
     """
-    the user should add the input here,
-    which it sould be R or P or S in capital letter,
-    then the computer will choose randomlly from the list
+    The user should add the input here,
+    which should be R or P or S with a capital letter,
+    then the computer will choose randomly from the list.
     """
     win = 0
     lose = 0
@@ -17,34 +17,34 @@ def select_move():
             if(move_player == "R" or move_player == "S" or move_player == "P"):
                 break
             else:
-                print(f'{name}, you enterd incorrect input')
+                print(f'{name}, you entered incorrect input')
                 print(f'please {name} choose one of "R" or "P" or "S"')
         move_computer = random.choice(list)
         print(move_computer)
-        """ there is three odds for each throw"""
+        """ There are three odds for each throw"""
         if move_player == "R":
             if move_computer == "R":
-                print("tied")
+                print("tie")
             elif move_computer == "S":
-                print("winner")
+                print("won")
                 win += 1
             elif move_computer == "P":
                 print("lost")
                 lose += 1
         elif move_player == "P":
             if move_computer == "P":
-                print("tied")
+                print("tie")
             elif move_computer == "R":
-                print("winner")
+                print("won")
                 win += 1
             elif move_computer == "S":
                 print("lost")
                 lose += 1
         elif move_player == "S":
             if move_computer == "S":
-                print("tied")
+                print("tie")
             elif move_computer == "P":
-                print("winner")
+                print("won")
                 win += 1
             elif move_computer == "R":
                 print("lost")
@@ -53,16 +53,16 @@ def select_move():
         print("--------------------------")
         """the result of the game"""
         if win >= 5:
-            print(f'congratulation {name}, you won the game')
+            print(f'congratulations {name}, you won the game')
             break
         elif lose >= 5:
-            print(f"Sorry {name}, you lost >>> no worries {name} try agian")
+            print(f"Sorry {name}, you lost >>> no worries {name} try again")
             break
         else:
             continue
 
 
-print("in this Game We use 'R' for Rock, 'P' for Paper and 'S' for scissors\n")
+print("in this game use 'R' for Rock, 'P' for Paper and 'S' for scissors\n")
 # here where the user enter name
 name = input('Choose Name:\n')
 print("The battle started\n")
