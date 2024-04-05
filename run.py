@@ -1,15 +1,17 @@
 import random
 
+
 def welcome():
-    print("Welcome in Rock, Paper, Scisser\n")
+    print("Welcome to Rock, Paper, Scissors\n")
     print("In this game you need to collect five points to win\n")
     print("use 'R' for Rock, 'P' for Paper and 'S' for scissors\n")
+
 
 def user_name():
     """here where the user enter name"""
     while True:
         name = input('Choose Name:\n').strip()
-        if(len(name) == 0):
+        if (len(name) == 0):
             print("Please enter a name")
         else:
             return name
@@ -77,13 +79,16 @@ def select_move(name):
         else:
             continue
 
+
 welcome = welcome()
 name = user_name()
 move = select_move(name)
+
 
 def main():
     welcome
     move
     name
-    
+
+
 main()
