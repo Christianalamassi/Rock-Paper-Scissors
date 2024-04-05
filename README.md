@@ -40,7 +40,7 @@ step to deploymen:
 
 
 ## Testing
-I have tested the project by the following points
+- I have tested the project by the following points
 - Passed the code to [PEP8](https://pep8ci.herokuapp.com/#).
 <img src="images/capture2.jpg">
 
@@ -48,6 +48,7 @@ I have tested the project by the following points
 <img src="images/feature1.jpg">
 
 ### bugs
+
 #### solved bugs
 I hade problem with "indentation"
      while True:
