@@ -1,19 +1,35 @@
 import random
 
+def welcome():
+    print("Welcome in Rock, Paper, Scisser\n")
+    print("In this game you need to collect five points to win\n")
+    print("use 'R' for Rock, 'P' for Paper and 'S' for scissors\n")
 
-def select_move():
+def user_name():
+    """here where the user enter name"""
+    while True:
+        name = input('Choose Name:\n').strip()
+        if(len(name) == 0):
+            print("Please enter a name")
+        else:
+            return name
+            break
+
+
+def select_move(name):
     """
     The user should add the input here,
     which should be R or P or S with a capital letter,
     then the computer will choose randomly from the list.
     """
+    print("The battle started\n")
     win = 0
     lose = 0
     while True:
         list = ["R", "P", "S"]
         while True:
             move_player = input(f'select a move {name}\n"R" or "P" or "S":\n')
-            move_player = move_player .upper()
+            move_player = move_player.upper()
             if(move_player == "R" or move_player == "S" or move_player == "P"):
                 break
             else:
@@ -61,10 +77,13 @@ def select_move():
         else:
             continue
 
+welcome = welcome()
+name = user_name()
+move = select_move(name)
 
-print("in this game use 'R' for Rock, 'P' for Paper and 'S' for scissors\n")
-# here where the user enter name
-name = input('Choose Name:\n')
-print("The battle started\n")
-
-select_move()
+def main():
+    welcome
+    move
+    name
+    
+main()

@@ -39,7 +39,9 @@ The user has to collect five points against the computer to win the game.
 In the project I created [render app](https://render.com/)
 
 step to deploymen:
--
+- Clone repository
+- Bulit a link from render app to repository
+- Here is the [Deploy](https://mypython.onrender.com/)
 
 
 ## Testing
