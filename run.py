@@ -72,9 +72,23 @@ def select_move(name):
         """the result of the game"""
         if win >= 5:
             print(f'congratulations {name}, you won the game')
-            break
+            print("**********************************")
+            plays = input(f'To play agian {name},type "YES" pleas:\n')
+            play = plays.upper()
+            if play == "YES":
+                continue
+            else:
+                print("You didn't enter Yes.\n See you soon.")
+                break
         elif lose >= 5:
             print(f"Sorry {name}, you lost >>> no worries {name} try again")
+            print("**********************************")
+            plays = input(f'To play agian {name},type "YES" pleas:\n')
+            play = plays.upper()
+            if play == "YES":
+                continue
+            else:
+                print("You didn't enter Yes.\n See you soon.")
             break
         else:
             continue
@@ -87,8 +101,8 @@ move = select_move(name)
 
 def main():
     welcome
-    move
     name
+    move
 
 
 main()
