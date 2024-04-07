@@ -23,27 +23,38 @@ The user has to collect five points against the computer to win the game.
 - Allows the user to enter its name.
 <img src="images/feature1.jpg">
 
-- Play against the computer
-- Accept the user's input 
-- A message informs the user about incorrect input
-- The user can't enter any input except what is provided
-- score panel
+- Play against the computer.
+- Accept the user's input. 
+- A message informs the user about incorrect input.
+- The user can't enter any input except what is provided.
+- score panel.
 <img src="images/feature2.jpg">
 
-- The game uses the user's name in messages
-- A message appears the result at the end of the game
+- The game uses the user's name in messages.
+- A message appears the result at the end of the game.
 <img src="images/feature3.jpg">
+
+- The project gives the user the choice to either end the game or play again.
+<img src="images/feature4.jpg">
+
 
 ## Technologies Used
 ### Languages Used
 [Python 3.8.5 ](https://www.python.org/downloads/release/python-385/)
 
 ## Deployment
-In the project I created [render app](https://render.com/)
+In the project is created by [render app](https://render.com/)
 
-step to deploymen:
+step to deployment:
 - Clone repository
-- Bulit a link from render app to repository
+- Sign in with render.
+- Create a render app.
+- Built a link to render the app with the repository
+  * Step to built link
+    - Click “New” then select “Web Service”
+    - On the right side, select “Connect account” for GitHub
+    - Select your GitHub account
+    - Install all repositories is selected and click “Install”
 - Here is the [Deploy](https://mypython.onrender.com/)
 
 
@@ -59,9 +70,7 @@ step to deploymen:
 
 #### solved bugs
 I hade problem with "indentation"
-     while True:
-       list = ["R", "P", "S"]
-        while True: 
+<img src="images/bug1.jpg">
 #### unsolved bugs
 I can't add a whitespace after the keyword because the line will be too long
 <img src="images/c.jpg">
