@@ -76,7 +76,7 @@ def select_move(name):
             plays = input(f'To play agian {name},type "YES" pleas:\n')
             play = plays.upper()
             if play == "YES":
-                continue
+                select_move(name)
             else:
                 print("You didn't enter Yes.\n See you soon.")
                 break
@@ -86,7 +86,7 @@ def select_move(name):
             plays = input(f'To play agian {name},type "YES" pleas:\n')
             play = plays.upper()
             if play == "YES":
-                continue
+                select_move(name)
             else:
                 print("You didn't enter Yes.\n See you soon.")
             break

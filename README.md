@@ -32,11 +32,8 @@ The user has to collect five points against the computer to win the game.
 
 - The game uses the user's name in messages.
 - A message appears the result at the end of the game.
-<img src="images/feature3.jpg">
-
 - The project gives the user the choice to either end the game or play again.
-<img src="images/feature4.jpg">
-
+<img src="images/feature3.jpg">
 
 ## Technologies Used
 ### Languages Used
