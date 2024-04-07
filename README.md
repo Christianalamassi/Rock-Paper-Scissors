@@ -1,9 +1,9 @@
-# Rock, Paper, Scissor
-Rock, Paper, Scissor is a python terminal game,and it runs by render.
+# Rock, Paper, Scissors
+Rock, Paper, Scissors is a python terminal game,and it runs by render.
 
 The plyer trys in this game to make five points against the device to win the game.
 
-link to the [Rock, Paper, Scisser](https://mypython.onrender.com/)
+link to the [Rock, Paper, Scissors](https://mypython.onrender.com/)
 <img src="images/capture11.jpg">
 
 ## About
