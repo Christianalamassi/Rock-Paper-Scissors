@@ -42,30 +42,30 @@ def select_move(name):
         """ There are three odds for each throw"""
         if move_player == "R":
             if move_computer == "R":
-                print("tie")
+                print("You >> Rock / Computer >> Rock => tie")
             elif move_computer == "S":
-                print("won")
+                print("You >> Rock / Computer >> Scissors => won")
                 win += 1
             elif move_computer == "P":
-                print("lost")
+                print("You >> Rock / Computer >> Paper => lost")
                 lose += 1
         elif move_player == "P":
             if move_computer == "P":
-                print("tie")
+                print("You >> Paper / Computer >> Paper => tie")
             elif move_computer == "R":
-                print("won")
+                print("You >> Paper / Computer >> Rock => won")
                 win += 1
             elif move_computer == "S":
-                print("lost")
+                print("You >> Paper / Computer >> Scissors => lost")
                 lose += 1
         elif move_player == "S":
             if move_computer == "S":
-                print("tie")
+                print("You >> Scissors / Computer >> Scissors => tie")
             elif move_computer == "P":
-                print("won")
+                print("You >> Scissors / Computer >> Paper => won")
                 win += 1
             elif move_computer == "R":
-                print("lost")
+                print("You >> Scissors / Computer >> Rock => lost")
                 lose += 1
         print(f'you got {win} and computer got {lose}')
         print("--------------------------")
