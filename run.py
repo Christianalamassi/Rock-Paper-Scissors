@@ -42,30 +42,30 @@ def select_move(name):
         """ There are three odds for each throw"""
         if move_player == "R":
             if move_computer == "R":
-                print("You >> Rock / Computer >> Rock => tie")
+                print("You >> Rock / Computer >> Rock => you tie")
             elif move_computer == "S":
-                print("You >> Rock / Computer >> Scissors => won")
+                print("You >> Rock / Computer >> Scissors => you won")
                 win += 1
             elif move_computer == "P":
-                print("You >> Rock / Computer >> Paper => lost")
+                print("You >> Rock / Computer >> Paper => you lost")
                 lose += 1
         elif move_player == "P":
             if move_computer == "P":
-                print("You >> Paper / Computer >> Paper => tie")
+                print("You >> Paper / Computer >> Paper => you tie")
             elif move_computer == "R":
-                print("You >> Paper / Computer >> Rock => won")
+                print("You >> Paper / Computer >> Rock => you won")
                 win += 1
             elif move_computer == "S":
-                print("You >> Paper / Computer >> Scissors => lost")
+                print("You >> Paper / Computer >> Scissors => you lost")
                 lose += 1
         elif move_player == "S":
             if move_computer == "S":
-                print("You >> Scissors / Computer >> Scissors => tie")
+                print("You >> Scissors / Computer >> Scissors => you tie")
             elif move_computer == "P":
-                print("You >> Scissors / Computer >> Paper => won")
+                print("You >> Scissors / Computer >> Paper => you won")
                 win += 1
             elif move_computer == "R":
-                print("You >> Scissors / Computer >> Rock => lost")
+                print("You >> Scissors / Computer >> Rock => you lost")
                 lose += 1
         print(f'you got {win} and computer got {lose}')
         print("--------------------------")
@@ -88,7 +88,7 @@ def select_move(name):
             if play == "YES":
                 select_move(name)
             else:
-                print("You didn't enter Yes.\n See you soon.")
+                print(f"See you soon {name}.")
             break
         else:
             continue
