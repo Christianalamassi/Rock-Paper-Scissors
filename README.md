@@ -1,37 +1,39 @@
 # Rock, Paper, Scissors
-Rock, Paper, Scissors is a python terminal game,and it runs by render.
+Rock, Paper, Scissors is a python terminal game that runs by render.
 
-The plyer trys in this game to make five points against the device to win the game.
+In this game, the player tries to make five points against the device to win the game.
 
 link to the [Rock, Paper, Scissors](https://mypython.onrender.com/)
 <img src="images/capture11.jpg">
 
 ## About
-In the game, the user plays against the computer, and the user needs to collect five points to win the game, rather than the user will lose. in each round whoever throws a strong hand will collect one point, then move to the next round, although when the result is tied none of them will collect a point.
-the game will end as soon as one of them collects five points, rather then the game will keep running.
+In the game, the user plays against the computer, and the user needs to collect five points to win the game, otherwise the user will lose. In each round whoever throws the stronger hand will collect one point. The stronger hand is defined by the following rules: Rock beats Scissors, Scissors beats Paper, Paper beats Rock. If the same symbol is chosen by both user and the computer, it is a draw. Then the next round starts. If the result is a draw, neither the user nor the computer will collect a point.
+The game will end as soon as either the user or the computer collects five points, until then the game will keep running.
 
 ## How To play
-At the start of the game, there is a message will appear to the user to describe to them what kind of input they are allowed to enter, rather than the game not running and it will ask them again to enter one of the correct inputs, then the user needs to enter its name to start the battle.
-This game uses symbols ("R" means Rock, "P" means Paper, and "S" means Scissors),
-when the user enters one of these symbols, the computer will do the same thing, and whoever gets a strong hand will collect one point and then the game will take them to the next round and so on.
+At the start of the game, a message will appear to the user describing to them what kind of input they are allowed to enter (which is R, P and S).
+Then the user needs to enter their name to start the battle.
+If the user enters a wrong input, the game will ask them again to enter one of the accepted options. 
+This game uses symbols ("R" means Rock, "P" means Paper, and "S" means Scissors).
+Whenever the user enters one of these symbols, the computer will do the same thing simultaneously, and whoever gets the stronger hand will collect one point and then the game will take them to the next round and so on.
 The user has to collect five points against the computer to win the game.
 
 ## Features 
 - Message to welcome the users.
-- Message to describes how to finish the game.
-- A message informs the users about what kind of input they can enter.
-- Allows the user to enter its name.
+- Message to describe how to finish the game.
+- A message informs the user about what kind of input they can enter.
+- Allows the user to enter their name.
 <img src="images/feature1.jpg">
 
 - Play against the computer.
 - Accept the user's input. 
 - A message informs the user about incorrect input.
 - The user can't enter any input except what is provided.
-- score panel.
+- Score panel.
 <img src="images/feature2.jpg">
 
 - The game uses the user's name in messages.
-- A message appears the result at the end of the game.
+- A message shows the result at the end of the game.
 - The project gives the user the choice to either end the game or play again.
 <img src="images/feature3.jpg">
 
@@ -40,14 +42,14 @@ The user has to collect five points against the computer to win the game.
 [Python 3.8.5 ](https://www.python.org/downloads/release/python-385/)
 
 ## Deployment
-In the project is created by [render app](https://render.com/)
+The project is created by [render app](https://render.com/)
 
-step to deployment:
-- Clone repository
+Steps to deployment:
+- Clone repository.
 - Sign in with render.
 - Create a render app.
-- Built a link to render the app with the repository
-  * Step to built link
+- Built a link to render the app with the repository.
+  * Steps to built link
     - Click “New” then select “Web Service”
     - On the right side, select “Connect account” for GitHub
     - Select your GitHub account
@@ -66,20 +68,20 @@ step to deployment:
 ### bugs
 
 #### solved bugs
-I hade problem with "indentation"
+I had a problem with "indentation"
 <img src="images/bug1.jpg">
 #### unsolved bugs
-I can't add a whitespace after the keyword because the line will be too long
+I can't add a whitespace after the keyword because the line will be too long.
 <img src="images/c.jpg">
 
 ## Credits
 - Learning from [W3school](https://www.w3schools.com/js/default.asp)
-- Learning and iinspiration [FreeCodeCamp](https://www.freecodecamp.org/)
+- Learning and inspiration from [FreeCodeCamp](https://www.freecodecamp.org/)
 - To show the program image on different devices [Am I Responsive](https://ui.dev/amiresponsive)
 - To deploy the project [Render](https://render.com/) 
 - It hosts the code of the project [GitHub](https://github.com/)
 - Testing the code [PEP8](https://pep8ci.herokuapp.com/#)
-- deployment terminal by [onrender](https://mypython.onrender.com/)
+- Deployment terminal by [onrender](https://mypython.onrender.com/)
 
 
 
