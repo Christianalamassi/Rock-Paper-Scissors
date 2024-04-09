@@ -39,7 +39,12 @@ The user has to collect five points against the computer to win the game.
 
 ## Technologies Used
 ### Languages Used
-[Python 3.8.5 ](https://www.python.org/downloads/release/python-385/)
+
+- [Python 3.8.5 ](https://www.python.org/downloads/release/python-385/)
+- [Render](https://render.com/) 
+- [GitHub](https://github.com/)
+- [CI Python Linter](https://pep8ci.herokuapp.com/#)
+- [CI](https://mypython.onrender.com/)
 
 ## Deployment
 The project is created by [render app](https://render.com/)
@@ -51,9 +56,19 @@ Steps to deployment:
 - Built a link to render the app with the repository.
   * Steps to built link
     - Click “New” then select “Web Service”
-    - On the right side, select “Connect account” for GitHub
-    - Select your GitHub account
+      <img src="images/re1.jpg">
+    - Choose build and deploy from Github to deply your sevece.
+      <img src="images/re2.jpg">
+    - On the right side, select “Connect account” for GitHub.
+      <img src="images/re3.jpg">
+    - Select your GitHub account.
     - Install all repositories is selected and click “Install”
+      <img src="images/re4.jpg">
+    * Then set up the sittings:
+      - Add a Name and the following sitting as in the pictuer:
+        <img src="images/re5.jpg">
+      - Set the Build Command to: pip install -r requirements.txt && npm install
+      - Set the Start Command to: node index.js
 - Here is the [Deploy](https://mypython.onrender.com/)
 
 
@@ -63,16 +78,30 @@ Steps to deployment:
 <img src="images/capture2.jpg">
 
 - Tested the code manually.
-<img src="images/feature1.jpg">
+  - Tested when the user doesn't enter a nmae.
+    <img src="images/notentername.jpg">
+  - Tested when the user doesn't enter the correct input.
+    <img src="images/notrps.jpg">
+  - Tested the three inputs that they are valid.
+    <img src="images/input.jpg">
+  - Tested the Optina panel to play again.
+    <img src="images/end.jpg">
+
+
 
 ### bugs
 
 #### solved bugs
-I had a problem with "indentation"
+- I had a problem with "indentation", when with used the tap and space button.
+The bug was solved by adding one more space to the "List".
 <img src="images/bug1.jpg">
-#### unsolved bugs
-I can't add a whitespace after the keyword because the line will be too long.
+
+- A whitespace after the keyword was missing.
+The bug was solved by adding space between if and parenthesis.
 <img src="images/c.jpg">
+
+#### unsolved bugs
+ No unsolved bugs were fund
 
 ## Credits
 - Learning from [W3school](https://www.w3schools.com/js/default.asp)
@@ -80,7 +109,7 @@ I can't add a whitespace after the keyword because the line will be too long.
 - To show the program image on different devices [Am I Responsive](https://ui.dev/amiresponsive)
 - To deploy the project I used [Render](https://render.com/) 
 - It hosts the code of the project [GitHub](https://github.com/)
-- Testing the code [PEP8](https://pep8ci.herokuapp.com/#)
+- Testing the code [CI Python Linter](https://pep8ci.herokuapp.com/#)
 - Deployment terminal by [CI](https://mypython.onrender.com/)
 
 
