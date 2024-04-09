@@ -62,7 +62,7 @@ Steps to deployment:
 - Passed the code to [PEP8](https://pep8ci.herokuapp.com/#).
 <img src="images/capture2.jpg">
 
-- Tested the code in my render [terminal](https://mypython.onrender.com/).
+- Tested the code manually.
 <img src="images/feature1.jpg">
 
 ### bugs
@@ -78,10 +78,10 @@ I can't add a whitespace after the keyword because the line will be too long.
 - Learning from [W3school](https://www.w3schools.com/js/default.asp)
 - Learning and inspiration from [FreeCodeCamp](https://www.freecodecamp.org/)
 - To show the program image on different devices [Am I Responsive](https://ui.dev/amiresponsive)
-- To deploy the project [Render](https://render.com/) 
+- To deploy the project I used [Render](https://render.com/) 
 - It hosts the code of the project [GitHub](https://github.com/)
 - Testing the code [PEP8](https://pep8ci.herokuapp.com/#)
-- Deployment terminal by [onrender](https://mypython.onrender.com/)
+- Deployment terminal by [CI](https://mypython.onrender.com/)
 
 
 

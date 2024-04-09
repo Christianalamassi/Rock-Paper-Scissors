@@ -2,9 +2,13 @@ import random
 
 
 def welcome():
-    print("Welcome to Rock, Paper, Scissors\n")
-    print("In this game you need to collect five points to win\n")
-    print("use 'R' for Rock, 'P' for Paper and 'S' for scissors\n")
+    """Interduction and Welcome starting"""
+
+    print(f"""Welcome to Rock, Paper, Scissors.
+
+In this game you need to collect five points to win.
+
+use 'R' for Rock, 'P' for Paper and 'S' for scissors.""")
 
 
 def user_name():
@@ -32,7 +36,9 @@ def select_move(name):
         while True:
             move_player = input(f'select a move {name}\n"R" or "P" or "S":\n')
             move_player = move_player.upper()
-            if(move_player == "R" or move_player == "S" or move_player == "P"):
+            if (
+                move_player == "R" or move_player == "S" or move_player == "P"
+            ):
                 break
             else:
                 print(f'{name}, you entered incorrect input')
@@ -100,9 +106,12 @@ move = select_move(name)
 
 
 def main():
+    """The main function that inclouds all functions that were coded"""
+
     welcome
     name
     move
 
 
-main()
+if __name__ == "__main__":
+    main()
